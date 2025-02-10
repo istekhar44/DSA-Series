@@ -9,11 +9,13 @@ int main(){
          break;
         case 'a': cout<<"character"<<endl;
         break;
-
-        default:cout<<"It is the default"<<endl;
+        char ch='b';
+        switch(ch){
+            case 'b' : cout<<"hellow app kone ha"<<endl;
+        }
+       // default:cout<<"It is the default"<<endl;
 
     }
     cout << endl;
     return 0;
 }
-//switch
