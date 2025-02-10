@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    /*
+    
     int n;
     cout << "Enter the number of terms: ";
     cin >> n;
@@ -18,8 +18,8 @@ int main() {
         b = nextnumber;
     }
 
-    return 0; */
-   /* int n;
+    return 0; 
+    int n;
     cin>>n;
     cout<<"enter the number "<<endl;
     for(int i=2; i<n; i++){
@@ -30,8 +30,8 @@ int main() {
             cout<<"this no is prime no";
             
         }
-    }*/
-   /*
+    }
+   
    //For loop for prime no?
    int n;
    cin>>n;
@@ -52,7 +52,7 @@ int main() {
    }
 */
 // continue is used  for  skip the nextline .
-/*int n;
+int n;
 cin>>n;
 for(int i=0; i<=n; i++){
     cout<<"hii"<<endl;
@@ -61,15 +61,16 @@ for(int i=0; i<=n; i++){
     //continue statement skip ker data ha?
     cout<<"reply to ker da bhai"<<endl;
 
-}*/
+}
 // question?
-/*for(int i=0; i<5;i++){
+for(int i=0; i<5;i++){
     for(int j=i;j<=5;j++){
         cout<<i<<" "<<j<<endl;
     ;
-}*/
+}
 
 
 
    
+}
 }
