@@ -15,7 +15,8 @@ bool isEven( int a ){
 int main(){
     int num;
     cin>>num;
-
+    
+    // call the function
     if(isEven(num)){
         cout<<num<<"The number is Even"<<endl;
     }
