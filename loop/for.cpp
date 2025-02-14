@@ -13,4 +13,4 @@ int main(){
     cout<<(15<<2)<<endl;
 
     
-}
+}j
