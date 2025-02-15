@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     //Programe for prime no ?
-    /*int i=2;
+    int i=2;
     int n;
     cin>>n;
 while (i<=n)
@@ -14,10 +14,10 @@ while (i<=n)
         cout<<"this no is prime"<<i<<endl;
     }
     i=i+1;
-}*/
+}
 
 //pattern question ?
-/*
+
  int n;
  cin>>n;
  cout<<"enter the number"<<endl;
@@ -34,10 +34,10 @@ while (i<=n)
     i=i+1;
     
    
- }*/
+ }
 
 //Triangular patter Question ?
-/*int n;
+int n;
 cin>>n;
 int row=1;
 while (row<=n)
@@ -53,9 +53,10 @@ while (row<=n)
     cout<<endl;
     
 }
-*/
+
 //Replace the star with the number ?
-/*int n;
+
+int n;
 cin>>n;
 int row=1;
 while (row<=n)
@@ -69,9 +70,9 @@ while (row<=n)
     row =row+1;
     cout<<endl;
     
-} */
-//Bitwise operator
-/*
+} 
+// How to use Bitwise operator 
+
 int a=3;
 int b=4;
 
