@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
+
 void update(int arr[],int n){
     cout<<endl<<"Inside the function"<<endl;
-
     //update array's first element
     arr[0]=120;
     //printing the aray
