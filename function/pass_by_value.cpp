@@ -1,30 +1,15 @@
 #include<iostream>
 using namespace std;
-
-// Pass By value 
- 
-//Question 1
-
 void update(int a){
-    a=a/2;
+    a = a + 10;
+    cout << "inside the function" << a << endl;
+
 }
 int main(){
-    int a = 10;
-    update (a);
-    cout<< a<< endl;
-}
-
-
-//Queation 2?
-
-int update (int a ){
-    a -=5;
-    return a;
-
-} 
-int main(){
-    int a =15;
-    update (a);
-    cout << a<<endl;
+    int num =3;
+    cout << " update the number" << num << endl ;
+    update (num);  // pass by value
+    cout <<" after the call execution" << num << endl ;
+    return 0;
 
 }

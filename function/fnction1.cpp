@@ -1,30 +1,31 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int n) {
-    int factorial = 1; // Corrected spelling and initialization
-    for (int i = 1; i <= n; i++) { // Corrected loop initialization
-        factorial = factorial * i;
+// Questin to find the ncr ?
+
+long long factorial(int n) {  // Changed return type to long long
+    long long fact = 1;  // Avoid integer overflow
+    for (int i = 1; i <= n; i++) {
+        fact *= i;
     }
-    return factorial;
+    return fact;
 }
 
-int nCr(int n, int r) {
-    int num = factorial(n);
-    int denom = factorial(r) * factorial(n - r);
-    int ans = num / denom;
-    return ans;
+long long nCr(int n, int r) {
+    if (r > n) return 0;  // Edge case: r cannot be greater than n
+    long long num = factorial(n);
+    long long denom = factorial(r) * factorial(n - r);
+    return num / denom; // Division after multiplication to avoid precision errors
 }
 
 int main() {
-    int n;
-    cout << "Enter the value of n: " << endl;
+    int n, r;
+    cout << "Enter the value of n: ";
     cin >> n;
-
-    int r;
-    cout << "Enter the value of r: " << endl;
+    cout << "Enter the value of r: ";
     cin >> r;
 
-    cout << "Answer is: " << nCr(n, r) << endl; // Correctly call nCr function
-    return 0; // Added return statement for main
+    cout << "Answer is: " << nCr(n, r) << endl;
+    return 0;
 }
+
