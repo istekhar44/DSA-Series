@@ -1,32 +1,42 @@
 #include <iostream>
-#include <fstream>
-#include <string>
 using namespace std;
 
-int main() {
-    // Writing to a file
-    ofstream outFile("data.txt");
-    if (outFile.is_open()) {
-        outFile << "Hello, File Handling in C++!\n";
-        outFile << "This is line 2.\n";
-        outFile << 42 << endl;
-        outFile.close();
-    } else {
-        cout << "Unable to open file for writing." << endl;
-    }
+void insertionSort(int arr[], int n) {
+    for (int i = 1; i < n; i++) {
+        int temp = arr[i];      // store the current element
+        int j = i - 1;
 
-    // Reading from a file
-    ifstream inFile("data.txt");
-    string line;
-    if (inFile.is_open()) {
-        cout << "File contents:\n";
-        while (getline(inFile, line)) {
-            cout << line << endl;
+        // shift elements to the right until correct spot for temp is found
+        for (; j >= 0; j--) {
+            if (arr[j] > temp) {
+                arr[j + 1] = arr[j];
+            } else {
+                break; // stop if we found the right spot
+            }
         }
-        inFile.close();
-    } else {
-        cout << "Unable to open file for reading." << endl;
+
+        arr[j + 1] = temp; // insert temp at the correct position
     }
+}
+
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    int arr[7] = {3, 8, 4, 63, 23, 9, 1};
+    int n = 7;
+
+    cout << "Before sorting: ";
+    printArray(arr, n);
+
+    insertionSort(arr, n);
+
+    cout << "After sorting: ";
+    printArray(arr, n);
 
     return 0;
-} 
+}
