@@ -34,22 +34,6 @@ int n=19;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //different types of technique in the array
 
 /*
