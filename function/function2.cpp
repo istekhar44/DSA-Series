@@ -25,3 +25,33 @@ int main(){
     }
 
 }
+
+
+
+//find this no is prime or not
+#include <iostream>
+using namespace std;
+bool isPrime(int a){
+    for(int i = 0; i < a ; i++){
+        if (a%2 ==0){
+            return 1;
+        }
+        else{
+            return 0;
+        }
+    }
+}
+
+int main(){
+    int a;
+    cout <<"Enter the value of a:"<<endl;
+    cin>>a;
+
+    if (isPrime(a)){
+        cout<<"this no is not prime"<<endl;
+    }else{
+        cout<<"this no is prime "<<endl;
+    }
+    return 0;
+
+} 

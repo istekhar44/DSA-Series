@@ -1,4 +1,5 @@
 //Reverse the array {11,7,3,12,4}
+//merge the two array and short the array
 #include <iostream>
 #include <vector>
 using namespace std;
