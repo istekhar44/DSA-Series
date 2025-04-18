@@ -5,7 +5,7 @@ int main(){
    //initlized the vector declared the no of element 
    vector<int>(5,1);
    cout<<"print a"<<endl;
-   for(int i:v){
+   for(int i:5){
     cout<<i<<" ";
    }
 
