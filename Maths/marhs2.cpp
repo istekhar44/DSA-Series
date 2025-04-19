@@ -8,7 +8,7 @@
 using namespace std;
 void sieveOfEratostheses(int n){
     //step 1. create a boolean array "is prime "
-    vector<bool>isPrime(n+1, true);
+    vector<bool> isPrime(n+1, true);
 
     //step 2. 0 and 1 are not prime 
     isPrime[0] = isPrime[1] = false;
