@@ -1,5 +1,8 @@
 //solve the question of the gdc 
 //Question => gdc(a,b)= gdc (a-b,b) prove.
+
+// 🧮 GCD (Greatest Common Divisor) — Explained Simply
+// GCD, also known as HCF (Highest Common Factor), is the largest number that divides two or more numbers exactly (i.e., without leaving a remainder).
 #include <iostream>
 using namespace std;
 int  gcd(int a, int b ){
