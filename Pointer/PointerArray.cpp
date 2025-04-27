@@ -2,6 +2,10 @@
 #include <typeinfo>
 using namespace std;
 
+// void print(char *p){
+//     cout << *p<< endl;
+// }
+
 int main(){
 // int array[5] = {3,5,6,7,9};
 // int *ptr = &array[5];
@@ -34,20 +38,42 @@ int main(){
 
 // cout <<sizeof(&ptr)<<endl;
 
-int a[20] = {3,5,6,7,6};
- cout << &a<<endl;
- cout << a<< endl;
- cout <<&a[0] <<endl;
+// int a[20] = {3,5,6,7,6};
+//  cout << &a<<endl;
+//  cout << a<< endl;
+//  cout <<&a[0] <<endl;
 
- int *p = &a[20];
- 
+//  int *p = &a[20];
+
+//  cout <<&p<<endl;
+
+// int arr [10] ;
+// int arr = {2,4,5,6,7,8,9};
+
+// int *ptr = &arr[0];
+// cout << ptr <<endl;
+// ptr = ptr + 1;
+// cout << ptr <<endl;
+
+// char ch[6] = "abcd";
+// int arr[5] = {1,2,3,4,5};
+// cout <<arr <<endl;
+// cout <<ch <<endl;
+
+// char *c= &ch[0];
+// cout <<&ch <<endl;
+
+// char ch[6] ="abcde";
+// char *p= &ch[0];
+
+// print(p);
 
 
 
 
 
 
-return 0;
+
 
 
 }

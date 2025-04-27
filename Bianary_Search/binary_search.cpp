@@ -8,11 +8,11 @@ int binarySearch(int arr[], int size, int key ){
         if ( arr[mid]== key){      // find the element = key
             return mid;
         } 
-        if(key> arr[mid]){         // Right wala part
+        if(key> arr[mid]){         // Right wala part ma check ker lo
             start = mid + 1;
         }
         else {
-            end = mid - 1;      // move the left wala part
+            end = mid - 1;      // move the left wala part ma check ker lo 
         }
         mid = start + (start + end ) /2;    // mid is update again because the any value of start and the mid is updated
     }
