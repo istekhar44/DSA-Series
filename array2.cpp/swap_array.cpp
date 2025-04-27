@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// Function to swap alternate elements in the array
+// Function to swap alternate elements in the array                 
 void swapAlter(int arr[], int n){
     for(int i = 0; i < n; i += 2){
         if(i + 1 < n){
@@ -32,7 +32,6 @@ int main(){
 
     return 0;
 }
-
 
 
 

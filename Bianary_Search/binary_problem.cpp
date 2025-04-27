@@ -32,11 +32,6 @@ int main() {
     // Correct function call
     int index = binarySearch(arr, 5, key);
     
-    if (index != -1) {
-        cout << "Element found at index: " << index << endl;
-    } else {
-        cout << "Element not found." << endl;
-    }
-    
+    cout <<"Element of the binary search "<< binarySearch << " "<<endl;
     return 0;
 }
