@@ -18,14 +18,21 @@ int main(){
     bool b = true ;
     bool *p = &b;
 
+    int num = 67;
+    int *num  = &num;
+
+    float  num = 68 ;
+    float *num = &num;
+    cout <<" "
+
     //string 
     string str= "hellow";
     string *p= &str;
     cout<<"print the address of the string"<<&str;
 
     
-    cout <<"print the value of num:"<<num<<endl;
-    cout <<"Adress of x"<<&num<<endl;
+    cout <<"print the value of num:"<<num<<endl;  // Print the value of the num
+    cout <<"Adress of x"<<&num<<endl;             //Print the adress of the num
 
     //pointer varible in the denoted by ("&")
     //pointer store the address of the pointer
