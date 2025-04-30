@@ -7,41 +7,46 @@
 using namespace std;
 class student{
 
-    private :
+private :
     string Name ;
     int Age ;
     float Marks;
 
-    void setName(string name){
-        Name = name;
-    }
-
-    getName(){
-        return Name;
-    }
-
-    public :
+   public :
     string fatherName;
     string gender;
     int FatherAge;
+      
+      //setter for name 
+    void setName(string name){
+        this->Name = name;
+     }
+
+       //getter for name 
+    string  getName(){
+         return Name;
+     }
 
     
 
 };
 int main(){
-    // Print the public properties
+    // create the boject 
     student s1;
+
+    //set public properties 
     s1.fatherName = "Mohit Mehra";
+    s1.gender = "male";
     cout <<"Print the name of student: "<<" " <<s1.fatherName<<endl;
 
-    //Print the private property
-    student s2;
-    setName("karanMehra");
-    // cout<<"print the set name "<<setName()<<endl;
+    //set and get private property using method 
+    s1.setName("karanMehra");
+    cout <<"print the name of student :"<<" " <<s1.getName()<<endl;
 
-
-    cout<<"print the set name "<<getName()<<endl;
-
+    //print public properties 
+    cout <<"father Name "<< s1.fatherName<<endl;
+    
+   
 
 return 0;
 }
