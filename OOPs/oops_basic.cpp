@@ -38,9 +38,6 @@ class car {
 
 
 
-    
-
-
 };
 
 int main(){

@@ -12,9 +12,11 @@ public:
     int fatherAge;
 
     // Setter for Name
-    void setName(string n) {
-        Name = n;  // Corrected: Assign to class member, not local variable
+    void setName(string name) {
+        Name = name;  // Corrected: Assign to class member, not local variable
     }
+
+
 
     // Getter for Name
     string getName() {
@@ -30,6 +32,10 @@ int main() {
 
     // Call the getter to retrieve value
     cout << "Student Name: " << s1.getName() << endl;
+
+    //print the public class in 
+    s1.fatherName = "Rohit Mehara";
+    cout <<"Print the father name of the Ramesh :" << s1.fatherName<<endl;
 
     return 0;
 }
