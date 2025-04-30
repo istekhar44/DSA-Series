@@ -61,7 +61,8 @@
     "string": "cpp",
     "unordered_map": "cpp",
     "ostream": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "typeinfo": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }

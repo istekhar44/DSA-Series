@@ -11,10 +11,32 @@ class student {
 };
 //class 2
 class car {
-    public ;
+    private :
+    int Health;
+
+    public :
     string brand;
     int price ;
     string type;
+
+
+
+    int getHealth(){
+        return health;
+    }
+
+    char getLevel(){
+        return level;
+
+    }
+    string getHealth(){
+        return health;
+    }
+    void setHealth(){
+        cout << "call the function "<< endl;
+    }
+
+
 
     
 
@@ -22,6 +44,11 @@ class car {
 };
 
 int main(){
+
+    //call the function of the class 2
+    cout << "health of the car" << car.getHealth() <<endl;
+
+
     student s1;
     s1.name = "istekharAlam";
     s1.marks = 88.7;
