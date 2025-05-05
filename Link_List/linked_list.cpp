@@ -31,6 +31,9 @@ class hellow{
     string value = "Istekhar ";
     hellow* next;
 
+    int value = 34;  //second  Node2
+    hellow* next;
+
     //make the constructor to add the new node 
     Node (int data ){
         this -> data = data ;
@@ -39,10 +42,15 @@ class hellow{
 };
 
 int main(){
-       //ue the helloow as the place of the node 
+       //use the helloow as the place of the node 
     hellow*  node1 = new hellow();
     cout << node1-> value <<endl;
     cout<< node1-> next <<endl;
+
+
+    //print the node 2
+    hellow* node2= new hellow();
+    cout<<node2 ->data value <<endl;
 
     return 0;
 
