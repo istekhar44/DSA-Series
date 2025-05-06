@@ -66,6 +66,8 @@ cout <<&ch <<endl;
 char ch[6] ="abcde";
 char *p= &ch[0];
 
+
+
 print(p);
 
 
