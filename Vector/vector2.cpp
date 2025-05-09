@@ -73,17 +73,20 @@ int main(){
 
 
 
-    // Leet code problem   find the unique element using the exor opertor
-class solution {
-    public :
-    int singleNumber(vector<int>& num){
-        int ans = 0;
-        for(int val: nums){
-            ans^=val;
-        }
-        return ans;
-    }
-}
+   //  // Leet code problem   find the unique element using the exor opertor
+// class solution {
+//     public :
+//     int singleNumber(vector<int>& num){
+//         int ans = 0;
+//         for(int val: nums){
+//             ans^=val;
+//         }
+//         return ans;
+//     }
+// }
+
+
+
 
 
 
