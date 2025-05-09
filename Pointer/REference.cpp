@@ -15,15 +15,18 @@ int main(){
 
 return 0;
 }*/
+
+
+
  
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
      //Create the referance varible fun  (Bad Practise)
 int & fun(int a ){
     int num = a;
     int &ans = num;
-    return ans;
+    return ans;    
 }
       //Create the refance varible    (Bad Practice)
 int &update(int n){
@@ -31,6 +34,7 @@ int &update(int n){
     int &ans = a;
     return ans;
 }
+
 int main(){
     int a = 10;
     int &ref=a;  //creating the reference varible
@@ -44,5 +48,27 @@ int main(){
 
     fun(a);
 
+
+
+return 0;
+}*/
+
+
+#include<iostream>
+using namespace std;
+int main(){
+
+    // int n;
+    // cin>>n ;     (Bad Practice ) define the arr size on the compile time 
+    // int arr[n];
+
+    //Create the heap memory  use the keyword = new 
+    new char;
+    char * ch= new char;
+    
+
+     
 return 0;
 }
+
+
