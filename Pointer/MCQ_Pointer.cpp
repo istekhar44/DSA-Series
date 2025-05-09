@@ -51,6 +51,26 @@ cout<<*(arr)<<" "<<*(arr +3);
 //Ans= 11  14*/
 
 
+// int arr [] ={11,21,31,41,51};
+// int* ptr = arr++;
+// cout<<*ptr<<endl
+// return 0
+// //ans = error : because the arr++ not increase arr ={} this form
+
+
+
+// void update (int *p){
+//     *p = (*p) * 2;
+
+// }
+// int main(){
+//     int i = 10;
+//     update(&i);
+//     cout<<i<<endl;
+// }
+// return 0;
+// Ans = 20 
+
 
 
 
