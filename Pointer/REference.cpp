@@ -9,6 +9,7 @@ int main(){
     cout<<j++<<endl;  //ans = 5
     cout<<i<<endl;    //ans = 6
     
+    cout <<"{Print MY name is khan}"
 
 return 0;
 }
