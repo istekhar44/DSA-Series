@@ -123,7 +123,7 @@ DSA-Series-main/
 
 ## 🔥 Author
 
-Created by [Your Name] – Feel free to fork and contribute.
+Created by Md Istekhar Alam – Feel free to fork and contribute.
 
 ## 📄 License
 
