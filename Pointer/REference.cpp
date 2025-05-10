@@ -6,6 +6,7 @@ int main(){
     int i = 5;
     //crete the referance varible 
     int & j= i;
+
     cout<<i++<<endl;  //ans = 5   
     cout<<j--<<endl;  // ans =6    
     cout<<j++<<endl;  //ans = 5
@@ -54,7 +55,7 @@ return 0;
 }*/
 
 
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
 
@@ -65,10 +66,42 @@ int main(){
     //Create the heap memory  use the keyword = new 
     new char;
     char * ch= new char;
-    
+
+
+    // Create the heap memory in the array
+    int *arr = new int [5];
 
      
 return 0;
 }
+*/
+
+
+
+#include<iostream>
+using namespace std;
+void getSum(int *arr , int n){
+   int  sum= 0;
+    for(int i = 0; i<n ; i++){
+        sum +=arr[i];
+    }
+    return sum;
+}
+
+int main(){
+    int n;
+    cin>>n;
+    int* arr = new int[n];     //Static array creation 
+    
+    for(int i= 0; i<n ; i++){
+        cin>>arr[i];
+    }
+    int ans = getSum(arr, n);
+    cout<<"Print the ans:"<<ans<<endl;
+
+return 0;
+}
+
+
 
 
