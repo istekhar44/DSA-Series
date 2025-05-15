@@ -22,13 +22,11 @@ class Teacher{
     int salery;
 
 
-
-
 };
 int main(){
     Teacher t1;
     t1.name="sunita";
-    cout<<"print name of teacher:"<<t1.
+    cout<<"print name of teacher:"<<t1.name<<endl;
     Teacher t2;
     Teacher t3;
 
