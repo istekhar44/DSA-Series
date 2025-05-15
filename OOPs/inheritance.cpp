@@ -19,7 +19,7 @@ public :
         this->weight = w;
 
     }
-
+    
 };
 
 class male : public human{
