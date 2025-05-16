@@ -1,8 +1,12 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-class hero{
-    public 
-};
+class hellow{
+    int age ;
+    int roll;
+    int height;
+    
+}
 int main(){
+return 0;
 
 }
