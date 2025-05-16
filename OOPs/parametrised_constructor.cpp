@@ -94,4 +94,9 @@ int main(){
     cout<<object1.height<<endl;
 return 0;
 }
-
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"my name id khan "<<endl;
+return 0;
+}
