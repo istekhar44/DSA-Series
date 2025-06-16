@@ -1,3 +1,8 @@
-#include<iostream>
-#include<climits>  // Include this header for INT_MIN
+#include <iostream>
 using namespace std;
+int main(){
+    cout<<"helllow"<<endl;
+    cout <<"hellow to the world"<<endl;
+    
+
+}

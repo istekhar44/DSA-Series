@@ -15,20 +15,19 @@ int main(){
     char* ptrChar = &c;
 
     //bool
-    bool b = true ;
+    bool b = true;
     bool *p = &b;
 
     int num = 67;
-    int *num  = &num;
+    int *ptr = &num;
 
-    float  num = 68 ;
-    float *num = &num;
-    cout <<" "
+    float  a = 68 ;
+    float *ptr = &a;
+    cout <<"print the number"<<*ptr <<endl;
 
-    //string 
-    string str= "hellow";
-    string *p= &str;
-    cout<<"print the address of the string"<<&str;
+    string name = "hellow";
+    string *ptr = &name;
+
 
     
     cout <<"print the value of num:"<<num<<endl;  // Print the value of the num

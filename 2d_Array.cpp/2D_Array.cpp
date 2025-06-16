@@ -32,3 +32,17 @@ int main() {
 
     return 0;
 }
+
+#include <iostream>
+using namespace std;
+int main(){
+    int row, col;
+    cout<<"Enter the row "<<endl;
+    cin>>row>>endl;
+    cout<<"Enter the column"<<endl;
+    cin>>col>>endl;
+    for(int row = 0; row<= 4 ; row++){
+       for(int col = 0) 
+    }
+
+}
