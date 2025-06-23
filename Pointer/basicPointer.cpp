@@ -55,6 +55,10 @@ int main(){
     cout <<"value of the num "<<*ptr<<endl;
     return 0;
 
-
+}
+#include <iostream>
+using namespace std;
+int main(){
+    cout <<"hellow "<<endl;
 }
 
